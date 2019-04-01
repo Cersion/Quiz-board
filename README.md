@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # quiz-board.github.io
 #### {This web page is a quiz that helps in guaging how much one undestands in JavaScript and HTML}, {24/02/2019}
 #### By **{Leon Carson}**
@@ -16,3 +17,6 @@
 ### License
 *{MIT LICENSE}*
 Copyright (c) {2019} **{Moringa School}**
+=======
+# Quiz-board
+>>>>>>> 696a0566dfa79cb1132f4b975efb2636e0b5e588
