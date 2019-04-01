@@ -4,3 +4,9 @@
   background-color: #8EC0BE
 
 }
+body{
+background:url("../images/board.jpg");
+}
+h2{
+  text-decoration: underline;
+}
