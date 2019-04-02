@@ -3,7 +3,7 @@
 #### {This web page is a quiz that helps in guaging how much one undestands in JavaScript and HTML}, {24/02/2019}
 #### By **{Leon Carson}**
 ## Description
-{The web page consists of 10 questions.Each correct answer is worth three points hence adds up to a total of thirty. After selecting an choice for each question the submit button is clicked so as to calculate the results. The results are shown at the top of the page followed by a comment on the score:excellent for above 80% ,fair for 50%-79% and poor, retake test for below 50%. To retake the quiz simply refresh the page}
+{The web page consists of 6 questions.Each correct answer is worth 10 points hence adds up to a 60. After selecting an choice for each question the submit button is clicked so as to calculate the results. The results are shown at the top of the page followed by a comment on the score:excellent for above 80% ,fair for 50%-79% and poor, retake test for below 50%. To retake the quiz simply refresh the page}
 ## Setup/Installation Requirementsfina
 * A running network connection to the internet
 * A web browser
