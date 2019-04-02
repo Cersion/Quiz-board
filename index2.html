@@ -1,71 +1,193 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<<<<<<< HEAD <head>
-  <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/social-messaging-productivity-4/128/ask-question-2-512.png" type="image/gif" sizes="16x16">
+
+<head>
   <meta name="viewport" content="width=device-width user-scalable=no">
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylez.css">
   <meta charset="utf-8">
   <title></title>
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <div class="container">
-      <div id="questions">
-        <div class="form-group">
-          <form id="quiz">
-            <h4>javascript Test</h4>
-            <!--Question 1-->
-            <label for="Q1">which is a scripting language <strong>(10mks)</strong></label><br>
-            <input type="radio" name="Q1" value="0" required>Jquery <br>
-            <input type="radio" name="Q1" value="10">javascript <br>
-            <!--Question 2-->
-            <label for="Q2">Which of the following is a logical operator <strong>(10mks)</strong></label><br>
-            <input type="radio" name="Q2" value="0" required>=== <br>
-            <input type="radio" name="Q2" value="10">|| <br>
-            <!--Question 3-->
-            <label for="Q3">What does mutator methods do to an array? <strong>(10mks)</strong></label><br>
-            <input type="radio" name="Q3" value="10" required>Modify Array<br>
-            <input type="radio" name="Q3" value="0">Don't modify <br>
-            <!--Question 4-->
-            <label for="Q4">How do you set a constant in Javascript? <strong>(10mks)</strong></label><br>
-            <input type="radio" name="Q4" value="10" required>Let <br>
-            <input type="radio" name="Q4" value="0">var <br>
-            <!--Question 5-->
-            <label for="Q5">Which one is <strong>NOT</strong> used to show a pop-up box? <strong>(10mks)</strong></label><br>
-            <input type="radio" name="Q5" value="0" required>Alert()<br>
-            <input type="radio" name="Q5" value="10">Console.log() <br>
-            <!--Question 6-->
-            <label for="Q6">Which one adds an element at the end of an array? <strong>(10mks)</strong></label><br>
-            <input type="radio" name="Q6" value="10" required>.push()<br>
-            <input type="radio" name="Q6" value="0">.pop() <br>
-            <button type="submit" class="btn btn-info" name="button">Submit</button>
-          </form>
-        </div>
+  <div id="checkpoint">
+    <div id="questions">
+      <div class="form-group">
+        <form id="quiz">
+          <h4>javascript Test</h4>
+          <!--Question 1-->
+          <label for="Q1">which is a scripting language <strong>(10mks)</strong></label><br>
+          <input type="radio" name="Q1" value="0" required>Jquery <br>
+          <input type="radio" name="Q1" value="10">javascript <br>
+          <!--Question 2-->
+          <label for="Q2">Which of the following is a logical operator <strong>(10mks)</strong></label><br>
+          <input type="radio" name="Q2" value="0" required>=== <br>
+          <input type="radio" name="Q2" value="10">|| <br>
+          <!--Question 3-->
+          <label for="Q3">What does mutator methods do to an array? <strong>(10mks)</strong></label><br>
+          <input type="radio" name="Q3" value="10" required>Modify Array<br>
+          <input type="radio" name="Q3" value="0">Don't modify <br>
+          <!--Question 4-->
+          <label for="Q4">How do you set a constant in Javascript? <strong>(10mks)</strong></label><br>
+          <input type="radio" name="Q4" value="10" required>Let <br>
+          <input type="radio" name="Q4" value="0">var <br>
+          <!--Question 5-->
+          <label for="Q5">Which one is <strong>NOT</strong> used to show a pop-up box? <strong>(10mks)</strong></label><br>
+          <input type="radio" name="Q5" value="0" required>Alert()<br>
+          <input type="radio" name="Q5" value="10">Console.log() <br>
+          <!--Question 6-->
+          <label for="Q6">Which one adds an element at the end of an array? <strong>(10mks)</strong></label><br>
+          <input type="radio" name="Q6" value="10" required>.push()<br>
+          <input type="radio" name="Q6" value="0">.pop() <br>
+          <button type="submit" class="btn btn-info" name="button">Submit</button>
+        </form>
       </div>
-      <center>
-        <div id="hide">
-          <div id="results"></div>
-          <button type="button" id="seeResults" class="btn btn-success" name="button">See Answers</button>
-        </div>
-      </center>
     </div>
-    <div class="container">
-      <div id="answers">
-        <div class="form-group">
-          <form id=>
-            <h4>Answers</h4>
-          </form>
+    <center>
+      <div id="hide">
+        <div id="results"></div>
+        <div id="retake"><a href="index.html"><button>Retake Test</button></a></div>
+    </center>
+  </div>
 
 
-        </div>
-      </div>
-
-  </body>
-
-  >>>>>>> 7006d4829f5183129e377d214e560fe1b2e05f0b
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="js/scripts.js">
+  </script>
+  <div id="particles-js">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="text/javascript">
+      particlesJS("particles-js", {
+        "particles": {
+          "number": {
+            "value": 60,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": "#ffffff"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            },
+            "image": {
+              "src": "img/github.svg",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "opacity": {
+            "value": 0.25,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.3,
+            "width": 1
+          },
+          "move": {
+            "enable": true,
+            "speed": 3,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": true,
+              "mode": "repulse"
+            },
+            "onclick": {
+              "enable": true,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 400,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      });
+      var count_particles, stats, update;
+      stats = new Stats;
+      stats.setMode(0);
+      stats.domElement.style.position = 'absolute';
+      stats.domElement.style.left = '0px';
+      stats.domElement.style.top = '0px';
+      document.body.appendChild(stats.domElement);
+      count_particles = document.querySelector('.js-count-particles');
+      update = function() {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);;
+    </script>
+  </div>
+</body>
 
 </html>

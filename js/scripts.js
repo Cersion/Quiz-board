@@ -35,3 +35,6 @@ $(document).ready(function(){
     $("#answers").show();
   });
 });
+function reset(){
+  location.reload();
+}
