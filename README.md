@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# quiz-board.github.io
+
+# Quiz-board.github.io
 #### {This web page is a quiz that helps in guaging how much one undestands in JavaScript and HTML}, {24/02/2019}
 #### By **{Leon Carson}**
 ## Description
